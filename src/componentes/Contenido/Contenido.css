@@ -1,0 +1,249 @@
+/*parte del body*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0px auto;
+  padding: auto;
+  margin-top: auto;
+}
+.contenedor-body {
+  padding-top: 80px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../IMG/movie.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  font-size: 20px;
+  line-height: 20px;
+  color: #f9faf6;
+  text-transform: uppercase;
+}
+
+.contenedor-body p {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 0 250px;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  text-align: justify;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.btn-1 {
+  display: inline block;
+  padding: 10px 30px;
+  background-color: bisque;
+  color: black;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 150px;
+  border-radius: 15px;
+}
+.btn-1:hover {
+  background-color: rgb(240, 190, 130);
+}
+
+.instrumentos {
+  padding: 100px;
+  background-color: #e1e2e6;
+  position: relative;
+}
+
+.contenedor-instrumentos {
+  text-align: center;
+}
+
+.contenedor-instrumentos h2 {
+  font-size: 45px;
+  line-height: 75px;
+  color: #323337;
+  text-transform: uppercase;
+  padding: 0% 50px;
+  margin-bottom: 20px;
+}
+
+.txt-p {
+  font-size: 16px;
+  counter-reset: #414247;
+  padding: 0 250px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.grupo-instrumentos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.instrumentos-1 {
+  padding: 0 25px;
+}
+.instrumentos-1 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.imag-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.instrumentos-1 h3 {
+  color: #323337;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.servicios {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../IMG/servicios.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80vh;
+  margin-top: 0%;
+}
+
+.contenedor-servicios {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.contenedor-servicios h2 {
+  font-size: 45px;
+  line-height: 70px;
+  color: #f9faf6;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.contenedor-servicios p {
+  font-size: 16px;
+  color: #c5c5c5;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 0 100px;
+}
+
+.grupo-servicios {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.servicio-1 {
+  padding: 0 100px;
+}
+
+.servicio-1 img {
+  width: 35px;
+  margin-bottom: 15px;
+}
+
+.servicio-1 h3 {
+  color: #eaccb3;
+  font-size: 18px;
+}
+
+.general {
+  display: flex;
+}
+
+.general-1 {
+  width: 50%;
+  padding: 100px 250px 100px 100px;
+  background-color: #e1e2e6;
+}
+.general-2 {
+  background-image: url(../../IMG/peliculas.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-3 {
+  background-image: url(../../IMG/cine.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.general-1 h2 {
+  font-size: 45px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.general-1 p {
+  font-size: 16px;
+  color: #414247;
+  margin: 25px 0 45px 0;
+  text-align: justify;
+}
+
+.blog {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.blog h2 {
+  font-size: 45px;
+  line-height: 75px;
+  color: #323337;
+  text-transform: uppercase;
+  padding: 0% 50px;
+  margin-bottom: 20px;
+}
+
+.blog p {
+  font-size: 18px;
+  color: #414247;
+  margin: 25px 0 45px 0;
+  text-align: justify;
+  padding: 0 50px;
+}
+
+.contenido-blog {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-1 {
+  padding: 15px 55px;
+}
+
+.blog-1 img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-1 h3 {
+  font-size: 25px;
+  color: #323337;
+  margin-top: 20px;
+}
+
+.blog p {
+  margin-top: 28px;
+  text-align: justify;
+}
