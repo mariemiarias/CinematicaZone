@@ -1,4 +1,4 @@
-/* estilos para el contenedor principal */
+/* estilos del contenedor principal */
 .shopping-content {
   background-image: url("/src/IMG/22.jpg");
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
   padding: 20px 0;
 }
 
-/* estilos para los elementos de la lista de productos */
+/* estilos de elementos de productos */
 .shopping-cart li {
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@
   background-color: #d32f2f;
 }
 
-/* estilos para los botones de agregar producto */
+/* estilos de los botones para agregar producto */
 .shopping-cart button {
   color: white;
   border: none;
@@ -61,7 +61,7 @@
   background-color: #3e8e41;
 }
 
-/* estilos para el título */
+/* estilos de el título principal */
 .shopping-cart h2 {
   font-size: 36px;
   margin-bottom: 30px;
