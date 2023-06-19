@@ -24,7 +24,7 @@ class Login extends Component {
               <div className="recordar">¿Olvido su Contraseña?</div>
               <input type="submit" value="Iniciar" />
               <div className="registrarse">
-                Quiero <a href="#">Registrarme</a>
+                 <a href="#">Quiero Registrarme</a>
               </div>
             </form>
           </div>
