@@ -1,39 +1,35 @@
 /* Css barra de navegacion */
 
-
 * {
     padding: 0;
     margin: 0;
-  }
-  
-  h1 {
+}
+
+h1 {
     text-align: center;
-    background-color: #360462;
+    background-color: #514cbe;
     color: white;
     padding: 20px;
-  
-  }
-  
-  nav ul {
-    background-color:#cc88d9;
+}
+
+nav ul {
+    background-color: #6779a3;
     width: 100%;
     list-style-type: none;
     text-align: center;
-  }
-  
-  nav li {
+}
+
+nav li {
     display: inline-flex;
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     color: white;
     padding: 10px;
     width: 150px;
-  }
-  
-  nav li:hover {
+}
+
+nav li:hover {
     background-color: black;
-  
-  }
-  
+}
