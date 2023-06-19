@@ -12,7 +12,7 @@ class Footer extends Component {
                 <div className = "box_footer" >
                 <div className = "logo" >
                 <img src = { K }
-                alt = "" / >
+                alt = "" / >  
             </div> 
             <div className = "terminos" >
                 <p > ©2023 Todos los derechos reservados.CinematicaZone es una empresa dedicada al mundo del cine y entretenimiento.Nos apasiona brindar experiencias cinematográficas inolvidables y ofrecer contenido de calidad a nuestros espectadores.Explora nuestra amplia selección de películas, eventos especiales y servicios relacionados.Síguenos en nuestras redes sociales para estar al tanto de las últimas novedades y descubrir más sobre nuestro apasionante universo cinematográfico.¡Gracias por visitarnos y ser parte de nuestra comunidad cinéfila!
