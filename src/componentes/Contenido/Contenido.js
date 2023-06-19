@@ -41,9 +41,6 @@ class Contenido extends Component {
           <a className="btn-1">información</a>
         </div>
         <section className="instrumentos">
-          {/* <div className="imag">
-            <img src={Cinta} alt="" />
-          </div> */}
 
           <div className="contenedor-instrumentos container">
             <h2>Tipos de Peliculas</h2>
