@@ -68,8 +68,7 @@ const Productos = () => {
           <p className="movie-description">{movie.overview}</p>
         </div>
       );
-
-      if ((index + 1) % 3 === 0) {
+          if ((index + 1) % 3 === 0) {
         rows.push(
           <div key={index} className="movie-row">
             {row}

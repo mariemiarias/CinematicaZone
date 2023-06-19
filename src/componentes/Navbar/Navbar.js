@@ -19,7 +19,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/login">Login</Link>
-            </li> 
+            </li>  
           </ul>
         </nav>
         <Outlet />
